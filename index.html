@@ -1,428 +1,523 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Our Los Angeles-based startup studio provides tech startup incubation,  mentorship, and acceleration programs to help entrepreneurs bring their ideas to market.">
-  <meta name="keywords" content="
-  Startup studio Los Angeles,
-  LA startup incubator,
-  Tech startup accelerator LA,
-  Venture studio LA,
-  Angel investor Los Angeles,
-  Startup mentoring LA,
-  Business incubator Los Angeles,
-  Seed funding LA,
-  Startup pitch events LA,
-  Entrepreneurship programs Los Angeles,
-  Startup mentorship LA,
-  Technology startup accelerator LA,
-  Business development Los Angeles,
-  Innovation center LA,
-  Entrepreneurial ecosystem LA,
-  Early stage funding LA,
-  Startup growth strategies Los Angeles,
-  Startup ecosystem LA,
-  Startup investment Los Angeles,
-  Venture capital LA">
+    <meta charset="utf-8">
+    <meta name="description" content="RAEMAR specializes in developing digital products for consumer health, population research, and sport science. We address the challenges of transforming physiological data into actionable insights, enabling personalized health and wellness solutions, accelerating scientific discovery, and enhancing sports performance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>RAEMAR</title>
 
-  <!-- Fav Icon -->
-  <link rel="icon" type="image/x-icon" alt="assets/reamarlogo.png" >
+    <title>RAEMAR</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="assets/css/plugins.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 
-  <!-- All CSS files -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/css/progressbar.css">
-  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-  <link rel="stylesheet" href="assets/css/master.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
 </head>
 
-
-<body>
-  <!-- Body BG -->
-  <div class="body-bg"></div>
-
-
-  <!-- Cursor Animation -->
-  <div class="cursor1"></div>
-  <div class="cursor2"></div>
-
-
-  <!-- Preloader -->
-  <div class="preloader">
-    <div class="loading">
-      <div class="bar bar1"></div>
-      <div class="bar bar2"></div>
-      <div class="bar bar3"></div>
-      <div class="bar bar4"></div>
-      <div class="bar bar5"></div>
-      <div class="bar bar6"></div>
-      <div class="bar bar7"></div>
-      <div class="bar bar8"></div>
-    </div>
-  </div>
+<body class="v-dark dsn-ajax">
 
 
 
 
-  <!-- Scroll Smoother -->
-  <div class="has-smooth" id="has_smooth"></div>
+<main id="main_root" class="main-root">
 
+    <!-- ========== Menu ========== -->
+    <header id="site_menu_header" class="site-header  dsn-container d-none dsn-hamburger">
+        <div class="main-logo">
+            <a href="index.html" data-dsn-text="RAEMAR" class="custom-logo-link main-brand effect-ajax" rel="home"
+               aria-current="page">
+                <img src="assets/logo.png" class="custom-logo logo-light" alt="RAEMAR"/>
 
-  <!-- Go Top Button -->
-  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
-
-
-  <!-- Header area start -->
-  <header class="header__area-3">
-    <div class="header__inner-3">
-      <div class="header__logo-2">
-        <a href="index.html" class="logo-dark"><img src="assets/reamarlogo.png" alt="Site Logo" style="width:40px; height:40px"></a>
-        <a href="index.html" class="logo-light"><img src="" alt="assets/reamarlogo2.png" style="width:40px; height:40px"></a>
-      </div>
-      <div class="header__nav-2">
-        <ul class="main-menu-3 menu-anim">
-          <li class="has-megamenu"><a style="font-family:Manrope; " href="#">home</a>
-            
-          </li>
-          <li><a href="#aboutit" style="font-family:Manrope; ">about</a></li>
-        
-       
-           
-          </li>
-          <li><a href="contact.html" style="font-family:Manrope; ">contact</a></li>
-        </ul>
-      </div>
-      <div class="header__nav-icon-3">
-      
-        <button id="open_offcanvas"><img src="assets/menu-black.png" alt="Menubar Icon"></button>
-      </div>
-    </div>
-  </header>
- 
-  <!-- Header area end -->
-
-
-  <!-- Offcanvas area start -->
-  <div class="offcanvas__area">
-    <div class="offcanvas__body">
-      <div class="offcanvas__left">
-        <div class="offcanvas__logo">
-          <a href="index.html"><img src="assets/reamarlogo2.png"  width="100" height="100"></a>
+            </a>
         </div>
        
-        <div class="offcanvas__social">
-         
-        </div>
-        <div class="offcanvas__links">
-         
-        </div>
-      </div>
-      <div class="offcanvas__mid">
-        <div class="offcanvas__menu-wrapper">
-          <nav class="offcanvas__menu">
-            <ul class="menu-anim">
-        
-              <li><h3 style="font-family: Manrope; color:white; line-height: 1.5em;padding: 50px;">Our mission is to help startups and businesses succeed by providing them with the tools and expertise they need to stand out in today's competitive digital landscape. <br>
-                Join us and let's build something great together.</h3></li><br>
-
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-
-          </nav>        
-      </div>
-      </div>
-      <div class="offcanvas__right">
-        <div class="offcanvas__search">
-          
-        </div>
-        <div class="offcanvas__contact">
-      
-        </div>
-       
-      </div>
-      <div class="offcanvas__close">
-        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
-      </div>
-    </div>
-  </div>
-  <!-- Offcanvas area end -->
-
-
-  <div id="smooth-wrapper">
-    <div id="smooth-content">
-      <main>
-
-        <!-- hero -->
-        <section class="hero__area-4 sp-x">
-          <div class="hero__content-8">
-            <h2 class="sec-title-4 sec-title-5 animation__char_come" >Raemar</h2>
-            <h2 class="sec-title-4 animation__char_come"><span>Startup</span>Studio</h2>
-            <div class="scroll-wrapper">
-              <div class="scroll-down" >
-                <span></span>
-                <img src="assets/scrolldown.svg" alt="Scroll Down">
-              </div>
-              <p class="discription hero__text-animation" style="font-family: Manrope">We partner with talented co-founders to build companies that create real value.</p>
+        <div id="navbar_toggle" class="navbar-toggle">
+            <div class="toggle-text">
+                <a ><div class="text-menu"> </div></a>
             </div>
-          </div>
-        </section>
-
-
-        <!-- /hero -->
-        <div class="portfolio__big">
-          <div class="portfolio__big-inner" style="background-image: url(assets/rae4.jpg);"> </div>
-        </div>
-
-        <!-- portfolio 8 -->
-        <div class="about__area-8 sp-x " >
-          <h6 class="text-end about-sub-right" >ABOUT</h6>
-          <div class="section_wrapper b-100">
-            <h4 class="react_border"><span></span></h4>
-          </div>
-          <div class="row justify-content-between">
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-              <div class="about8" >
-                <h2 class="about8__title fade_bottom_2"><br>Build with<br> 
-                  <a class="hover_wrap"> 
-                    <span>Builders</span>
-                  </a>
-                </h2>
-              </div>
+            <div class="toggle-text">
+                <a href="#about"><div class="text-menu" style="padding-left:25px">About</div></a>       
             </div>
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-              <div class="about8__content fade_bottom_2" >
-                <h4 style="font-family: Manrope; font-weight:400; line-height: 1.5em;">Hi there! We're a startup studio located in Los Angeles, dedicated to helping non-technical founders transform their ideas into thriving startups.<br><br>
-                  Our special areas of focus are consumer technology, mobile and digital health.</h4>
-
-          
-              </div>
+            <div class="toggle-text">
+                <a href="#services"><div class="text-menu" style="padding-left:25px">Services</div></a>       
             </div>
-          </div>
+            <div class="toggle-text">
+                <a href="#contact"><div class="text-menu" style="padding-left:25px">Contact</div></a>       
+            </div>
         </div>
-        <!-- /portfolio 8 -->
+    
+    </header>
+    <!-- ========== End Menu ========== -->
+    <div id="dsn-scrollbar">
 
-        
-        <!-- Price area start -->
-        <section class="price__area pt-130 pb-140"  id="aboutit">
-          <div class="container">
-            <div class="row">
-              <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div class="sec-title-wrapper">
-                  <h2 class="sec-sub-title title-anim">what we do</h2>
-                  <h3 class="sec-title title-anim">We are here to <br> help you </h3>
+    <!-- ========== Header ========== -->
+    <header id="dsn_header" class="dsn-header-animation dsn-full-header v-dark-head">
+        <div class="entry-header p-relative over-hidden">
+            <div id="hero_image" class="p-absolute dsn-hero-parallax-img over-hidden" data-dsn-ajax="img"
+                 data-overlay="6">
+                <img src="assets/home.jpg" class="cover-bg-img transform-3d" alt=""/>
+            </div>
+
+            <div id="hero_content" class="d-flex p-relative h-100 dsn-hero-parallax-title container align-items-center">
+                <div class="content p-relative ">
+                    <div class="intro-project w-100">
+                        <div class="intro-title ">
+
+                            <div id="hero_title" class="mt-20">
+                                <h1 class="ah-headline title clip is-full-width ">
+                                    <span >Innovative Solutions for Biosensor Data</span>
+                                    
+                                </h1>
+                            </div>
+                            <p class="title-block mt-20 max-w570">
+                                RAEMAR provides end-to-end wearable data analytics and product development services
+                             </p>                       
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div class="faq__list-3">
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-family: Manrope; font-weight:700; line-height: 1.5em;">
-                          Put Your Idea Through Its Paces
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body"  style="font-family: Manrope; font-weight:400; line-height: 1.5em;">
-                          <p>We help you evaluate your idea from all angles, including testing customer demand, technical feasibility, business models & more.
+            </div>
+
+        </div>
+        <a href="#page_wrapper" rel="nofollow" class="dsn-scroll-bottom"
+           data-dsn-option='{"ease": "power4.inOut" , "duration" : 1.5}'>
+            <div class="text">SCROLL</div>
+        </a>
+    </header>
+    <!-- ========== End Header ========== -->
+  
+
+
+    <div id="page_wrapper" class="wrapper" >
+        <div  id ='about'>
+       <div class="about-section about-arc background-section pt-100 pb-section" >
+            <div class="container d-grid grid-md-2 pt-100 " >
+                <div class="box-left">
+                    <h2 class="title-h2 p-relative body-font  heading-color text-upper">
+                        Elevate your Health and Wellness Services with Biosensors</b>
+                    </h2>
+                    <p class="dsn-heading-title d-inline-block p-relative mt-30">
+                        We specialize in developing digital products for consumer health, population research, and sport science. We address the challenges of transforming physiological data into actionable insights, enabling personalized health and wellness solutions, accelerating scientific discovery, and enhancing sports performance.
+                        <br><br>
+                        Our expertise lies in bridging the gap between scientific research and consumer applications, ensuring that the valuable insights derived from biosensor data are readily accessible and actionable for individuals.     
+                    </p>
+                </div>
+
+                <div class="box-right box-img">
+                    <div class="dsn-bg-mask w-100 h-50 bottom-0  z-index-1"></div>
+                    <div class="img-first h-100">
+                        <img class="cover-bg-img" src="assets/d1.png" alt="">
+                    </div>
+                    <div class="img-last h-100">
+                        <img class="cover-bg-img" src="assets/d2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <!-- ========== End About Section ========== -->
+
+        <!-- ========== Service ========== -->
+        <div class="dsn-container p-relative mb-section">
+            <div class="service-with-img text-center icon-top  dsn-icon-theme-color v-dark-head-mobile">
+                <div class="dsn-service d-grid grid-md-3 grid-sm-2   hv-100"
+                     data-dsn-iconsize="80px">
+
+                    <div class="service-item border-right p-relative grid-item">
+                        <div class="service-item-inner number-item h-100">
+                            <div class="dsn-icon">
+    
+                            </div>
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block ">PERFORMANCE ANALYTICS</h4>
+                                <div class="service_description mt-20 max-w570 dsn-auto">
+                                    <ul>
+                                        <li>Recieve customized reports with comprehensive insights on key metrics, biomarkers, and physiological testing data.</li>
+                                        <div class="dsn-def-btn d-flex dsn-border-style dsn-icon-heading-color mt-30">
+                                            <a class="dsn-btn dsn-border border-color-default background-section  move-circle has-icon-left"
+                                               href="mailto:kris@raemar.studio" data-dsn-text="Contact Us" data-dsn="parallax">
+                                           
+                                                <span class="title-btn p-relative  z-index-1 ">LEARN MORE</span>
+                                            </a>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-bg cover-bg" data-dsn-bg="assets/data1.jpg" data-overlay="4"></div>
+
+                    <div class="service-item p-relative border-right grid-item">
+                        <div class="service-item-inner number-item h-100">
+                            <div class="dsn-icon">
+
+                            </div>
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block ">CONSUMER TECH</h4>
+                                <div class="service_description mt-20 max-w570 dsn-auto">
+                                    <ul>
+                                        <li>Integrate both novel and existing biometrics into our product to improve health outcomes.</li>
+                                            <div class="dsn-def-btn d-flex dsn-border-style dsn-icon-heading-color mt-30">
+                                                <a class="dsn-btn dsn-border border-color-default background-section  move-circle has-icon-left"
+                                                href="mailto:kris@raemar.studio" data-dsn-text="Contact Us" data-dsn="parallax">
+                                               
+                                                    <span class="title-btn p-relative  z-index-1 ">LEARN MORE</span>
+                                                </a>
+                                            </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-bg cover-bg" data-dsn-bg="assets/data2.jpg" data-overlay="4"></div>
+
+                    <div class="service-item p-relative grid-item">
+                        <div class="service-item-inner number-item h-100">
+                            <div class="dsn-icon">
+
+                            </div>
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block ">RESEARCH</h4>
+                                <div class="service_description mt-20 max-w570 dsn-auto">
+                                    <ul>
+                                        <li>Utilize our infrastructure and analytic capabilities to leverage wearable devices in your research.</li>
+                                        <div class="dsn-def-btn d-flex dsn-border-style dsn-icon-heading-color mt-30">
+                                            <a class="dsn-btn dsn-border border-color-default background-section  move-circle has-icon-left"
+                                            href="mailto:kris@raemar.studio" data-dsn-text="Contact Us" data-dsn="parallax">
+                                           
+                                                <span class="title-btn p-relative  z-index-1 ">LEARN MORE</span>
+                                            </a>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-bg cover-bg" data-dsn-bg="assets/data3.jpg" data-overlay="4"></div>
+
+
+                </div>
+                <div class="dsn-bg-mask h-50 top-0 background-section"></div>
+            </div>
+
+        </div>
+        <!-- ========== End Service ========== -->
+
+
+        <!-- ========== About According ========== -->
+        <div class="about-section section-margin container d-grid grid-md-2" data-dsn-gap="30px 60px" id ="services">
+            <div class="box-left p-relative  pinned-scroll">
+
+                <div class="pinned-element"  >
+                    <p class="description d-inline-block p-relative circle-before mb-10">
+                        <span>SERVICES</span> 
+                    </p>
+                    <h2 class="title-h2 body-font text-upper">
+                        Driving digital health innovation </b>
+                    </h2>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="dsn-accordion" role="tablist">
+                    <div class="accordion__wrapper">
+
+                        <div class="accordion__item  active">
+                            <div class="accordion__question user-no-selection expanded d-flex align-items-center  ">
+                                <span class="number background-theme h6">1</span>
+                                <h2 class="sm-title-block tab-title heading-color" role="tab" data-tab="0">
+                                    Collaborative Algorithm Development</h2>
+                            </div>
+                            <div class="accordion__answer tab-description active " role="tabpanel" data-tab="0">
+                                <p>We collaborate closely with our partners to co-develop algorithms that harness the potential of biosensor data, ensuring alignment with identified objectives and specific requirements.</p></div>
+                        </div>
+
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">2</span>
+                                <h2 class="sm-title-block tab-title heading-color" role="tab" data-tab="1">Feasibility Assessment, Validation and Testing</h2>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="1">
+                                <p>We guide our clients through algorithm testing, ML/AI implementation, and feasibility assessment to ensure the successful utilization of biosensor data in their product.</p></div>
+                        </div>
+
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">3</span>
+                                <h2 class="sm-title-block tab-title heading-color" role="tab" data-tab="2">Product Development</h2>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="2">
+                                <p>We enable the seamless integration of validated algorithms into user-friendly consumer products, such as wearables and mobile applications.</p></div>
+                        </div>
+
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">4</span>
+                                <h2 class="sm-title-block tab-title heading-color" role="tab" data-tab="3">UX and Product Optimization</h2>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="3">
+                                <p>By leveraging user feedback, data analytics, and continuous monitoring, we identify areas for improvement and use these insights to guide future development efforts.</p></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========== End About According ========== -->
+
+ 
+
+            <!-- ========== background Box Image ========== -->
+            <div class="p-relative section-padding v-dark-head">
+
+                <div class="container">
+                 
+                    <h3 class="title-h2">
+                        Delivering custom, science-based <br> digital health services</b>
+                    </h3>
+                    <p class="mt-30 max-w570">
+                        The health and wellness industry is fast evolving as people seek out new solutions to help them live healthier, happier lives.
+                        <span class="mb-10 d-block"></span>
+                        By unlocking the benefits of wearable data, our clients gain a competitive edge, deliver enhanced user experiences, and contribute to improved health outcomes for their customers.
+                    </p>
+                    <div class="dsn-def-btn d-flex dsn-border-style dsn-icon-heading-color mt-30">
+                        <a class="dsn-btn dsn-border border-color-default background-section  move-circle has-icon-left"
+                        href="mailto:kris@raemar.studio" data-dsn-text="Contact Us" data-dsn="parallax">
+                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                            <i class="far fa-envelope-open"></i>
+                        </span>
+                            <span class="title-btn p-relative  z-index-1 ">CONTACT US</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="dsn-bg-section p-absolute w-100 h-100 over-hidden top-0 left-0" style="z-index: -1;">
+                    <div class="h-100 img-box-parallax before-z-index " data-dsn-grid="move-up" data-overlay="4">
+                        <img src="assets/about.png" class="cover-bg-img has-direction" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <!-- ========== End background Box Image ========== -->
+
+
+            <!-- ========== testimonials ========== -->
+            <div class="p-relative section-padding background-section ">
+                <div class="background-overlay bg-1"></div>
+                <div class="container">
+                    <div class="section-title mb-70 d-grid grid-md-2 ">
+                        <div class=" d-flex">
+                            <div class="sub-section-title ">
+                                <!-- <p class="description d-inline-block p-relative circle-before mb-10"> -->
+                                    <!-- <span>testimonials</span>  -->
+                                <!-- </p> -->
+                                <span class="title-h2 title-block-lg d-block heading-color">
+                                    Our Partnerships</b>
+                         </span>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div class="elementor-widget-dsn_testimonial" data-widget_type="dsn_testimonial.default">
+                        <div class="dsn-testimonials dsn-swiper p-relative has-parallax-image"
+                             data-dsn-option='{"spaceBetween":30,"centeredSlides":false,"slidesPerView":2}'>
+
+                            <div class="testimonials-content">
+                                <div class="testimonial-inner">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                         viewBox="0 0 509 396.83"
+                                         enable-background="new 0 0 509 396.83" xml:space="preserve">
+					        <g>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M105.098,396.83c-2.062,0-4.122,0-6.183,0 c0.123-48.731,0.116-97.466,0.493-146.195c0.062-7.844-3.65-8.881-10.09-8.843c-29.772,0.182-59.545,0.047-89.318,0.026 C0,161.382,0,80.947,0,0c81.742,0,163.484,0,245.227,0c0.023,83.874,0.496,167.752-0.071,251.624 c-0.436,64.131-47.354,121.936-109.503,136.974C125.404,391.076,115.279,394.073,105.098,396.83z M127.891,360.509 c6.063-1.545,10.049-2.226,13.799-3.568c42.174-15.098,74.277-58.896,74.735-104.55c0.718-71.273,0.187-142.558,0.454-213.837 c0.03-7.696-2.596-10.07-10.136-10.038c-55.961,0.236-111.927,0.287-167.887-0.042c-8.413-0.049-10.398,3.014-10.363,10.831 c0.254,54.408,0.317,108.815-0.047,163.22c-0.061,8.994,3.321,10.93,11.452,10.803c25.744-0.405,51.505,0.184,77.245-0.329 c8.78-0.174,10.986,2.931,10.911,11.301c-0.363,40.63-0.164,81.264-0.163,121.897C127.891,350.262,127.891,354.325,127.891,360.509 z"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M368.871,396.83c-2.061,0-4.122,0-6.184,0 c0.057-48.133-0.099-96.267,0.354-144.395c0.081-8.996-3.268-10.854-11.386-10.722c-26.047,0.42-52.108-0.083-78.152,0.299 c-7.577,0.108-10.083-2.194-10.053-9.942c0.294-77.357,0.262-154.713,0.322-232.07C345.353,0,426.929,0,509,0 c0,89.562,0,179.125,0,268.687c-1.256,3.464-2.793,6.854-3.73,10.401c-15.376,58.112-51.126,95.756-109.9,110.431 C386.48,391.735,377.7,394.382,368.871,396.83z M391.554,360.501c5.951-1.528,9.958-2.176,13.686-3.57 c43.103-16.135,74.464-59.44,74.864-105.611c0.616-70.931,0.138-141.869,0.404-212.803c0.03-7.722-2.58-10.037-10.111-10.005 c-55.963,0.24-111.926,0.285-167.889-0.036c-8.406-0.048-10.429,3.048-10.392,10.853c0.245,54.405,0.31,108.813-0.049,163.216 c-0.059,9.03,3.45,10.9,11.528,10.778c25.741-0.39,51.504,0.193,77.245-0.325c8.785-0.178,10.956,2.917,10.878,11.284 c-0.368,40.629-0.167,81.263-0.165,121.897C391.554,350.25,391.554,354.318,391.554,360.501z"/>
+					        </g>
+				        </svg>
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide testimonial-inner-item border-style">
+                                                <div class="avatar box-img dsn-auto">
+                                                  
+                                                </div>
+                                                <a href = 'https://www.biobayhealth.com/'><div class="testimonial-item">
+                                                    <div class="testimonial-content mb-25">
+                                                        <div class="quote">
+                                                            <p class="max-w750 testimonial-content p-large">
+                                                                Built on the foundation of "N-of-1" experiments, BiOBAY enables users to experiment with lifestyle changes, analyze digital biomarkers, and discover unique patterns.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-inner border-top">
+                                                        <div class="d-flex align-items-center ">
+                                                            <div class="avatar box-img dsn-auto">
+                                                                <img src='assets/biobay.png'
+                                                                     class="cover-bg-img" alt=''/>
+                                                            </div>
+                                                            <div class="label box-text">
+                                                                <h4 class="testimonial-name sm-title-block">BiOBAY</h4>
+                                                                <h5 class="testimonial-position">biobayhealth.com</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></a>
+                                            </div>
+                                            <div class="swiper-slide testimonial-inner-item border-style">
+                                                <div class="avatar box-img dsn-auto">
+                                                 
+                                                </div>
+                                                <a href = 'https://www.bodycheckhealth.com/'> <div class="testimonial-item">
+                                                    <div class="testimonial-content mb-25">
+                                                        <div class="quote">
+                                                            <p class="max-w750 testimonial-content p-large">
+                                                                llll
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-inner border-top">
+                                                        <div class="d-flex align-items-center ">
+                                                            <div class="avatar box-img dsn-auto">
+                                                                <img src='assets/bc.png'
+                                                                     class="cover-bg-img" alt=''/>
+                                                            </div>
+                                                            <div class="label box-text">
+                                                                <h4 class="testimonial-name sm-title-block">BODYCHECK HEALTH</h4>
+                                                                <h5 class="testimonial-position">bodycheckhealth.com</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></a>
+                                            </div>
+                                           
+                                    
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                          
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ========== End testimonials ========== -->
+
+
+      <!-- ========== Contact ========== -->
+        <div class="container pb-section pt-section border-top d-grid grid-md-2" data-dsn-gap="30px 120px" id="contact" style="background-color: black;">
+            <div class="box-left p-relative  pinned-scroll" data-dsn-option='{"end":"250"}'>
+                <div class="section-title  pinned-element">
+                    <h2 class="title-h2 text-upper">Contact Us</h2>
+                    <p class="max-w350 mt-20">
+
+
+                        <div class="col-contact">
+                            
+                                <strong></strong><a class="mt-20" href="#">RAEMAR LLC</a><br>
+                                <strong></strong><a class="mt-20" href="#">2633 Lincoln Blvd #134</a><br>
+                                <strong></strong><a class="mt-20" href="#">Santa Monica, CA 90405</a><br>
                             </p>
                         </div>
-                      </div>
-                    </div>
-
-                   
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-family: Manrope; font-weight:700; line-height: 1.5em;">
-                        Design Beautiful Products
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body"  style="font-family: Manrope; font-weight:400; line-height: 1.5em;">
-                          <p> Our team can create mockups, design user interfaces and experiences, develop systems, and build prototypes to meet all of your needs. </p>
-                        
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-family: Manrope; font-weight:700; line-height: 1.5em;">
-                         
-                          Get to Know Your Customers  
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body"  style="font-family: Manrope; font-weight:400; line-height: 1.5em;">
-                          <p>We help you understand your customers to uncover valuable insights about their wants and needs. With this knowledge, you'll be able to make informed business decisions that drive growth for your company. </p>
-
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-family: Manrope; font-weight:700; line-height: 1.5em;">
-                          Build the Technical Groundwork
-                     
-                        </button>
-                      </h2>
-                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body"  style="font-family: Manrope; font-weight:400; line-height: 1.5em;">
-                          <p>We guide you through the technical development process, ensuring that your product or service is built to the highest standards. Whether it's coding, software development, or other technical aspects, we've got you covered!</p>
-
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="font-family: Manrope; font-weight:700; line-height: 1.5em;">
-                          Create Operational Framework
-                        </button>
-                      </h2>
-                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body"  style="font-family: Manrope; font-weight:400; line-height: 1.5em;">
-                          <p>We help you every step of the way as you set up your company and establish effective business operations. Our team will guide you through the process, providing you with the necessary resources and support to make informed decisions that drive success.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                   
-                  </div>
-                </div>
-              </div>
-
-    
-            </div>
-          </div>
-        </section>
-        <!-- Price area end -->
-
-
-
-        <!-- single img 8 -->
-        <div class="single__image-8 pt-130 pb-200 text-center sp-x" style="padding-bottom:0px">
-          <div class="col-lg-10 text-center m-auto">
-            <div class="singlecontent">
-              <div class="hover_8_wrap">
-                <h2 class="tech_title fade_bottom_4" >Bring your idea to life!<br>
-                   <br><br><a href="#">Partner With Us</a>
-                  </h2>
-
-              </div>
-            
-              <div class="single__thumb">
-              
-                <div class="scroll-down" >
         
-                  <img src="assets/scrolldown.svg" alt="Scroll Down">
+                    </p>
                 </div>
-       
-              </div>
             </div>
-          </div>
+            <div class="box-right">
+                <h2 class="title-block ">
+                    IF YOU HAVE QUESTIONS PLEASE <br>CONTACT US
+                </h2>
+            
+                <div class="dsn-form mt-20 form-box d-flex flex-column">
+                    <form id="contact-form" class="form w-100" action="https://formspree.io/f/xzbqvpjn"
+                    method="POST"
+                          data-toggle="validator">
+                        <div class="messages"></div>
+                        <div class="input__wrap controls">
+                            <div class="form-group dsn-up">
+                                <div class="entry-box">
+
+                                    <input id="form_name" type="text" name="name" placeholder="Name"
+                                           required="required"
+                                           data-error="name is required."/>
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group dsn-up">
+                                <div class="entry-box">
+
+                                    <input id="form_email" type="email" name="email"
+                                           placeholder="Email Address"
+                                           required="required" data-error="Valid email is required."/>
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group dsn-up">
+                                <div class="entry-box">
+
+                                    <textarea id="form_message" class="form-control" name="message"
+                                              placeholder="Your message" required="required"
+                                              data-error="Please,leave us a message."></textarea>
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-end dsn-up" >
+                                <div class="image-zoom move-circle background-theme" data-dsn="parallax">
+                                    <input type="submit" value="Send Message">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <!-- /single img 8 -->
-
-        <!-- work 8 -->
-
-        <!-- /work 8 -->
-
-
-
-
-        <!-- Footer area start -->
-        <footer class="footer__area-8 pt-120">
-            <!-- CTA area start -->
-        <section class="cta__area cta__area-7 pt-130">
-          <div class="container pb-110">
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="cta__content">
-
-                  <h2 class="tech_title title-anim" style="color:white">Let's Chat</h2>
-                  <div class="btn_wrapper">
-                    <a href="contact.html" class="wc-btn-primary btn-hover btn-item" style="font-family: Manrope; color:white; line-height: 1.5em;"><span ></span>Contact Us<i
-                        class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
+        <!-- ========== End Contact ========== -->
+        <div class="dsn-container pt-60">
+                
+            <div class="footer-bottom mt-60 pt-30 border-top pb-30 text-center">
+                <p class="over-hidden">
+                    © 2023 RAEMAR LLC
+                  
+                </p>
             </div>
-          </div>
-        </section>
-        <div class="footer__btm-3" style="background-color: black;">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div  style="font-family:Manrope; color:white">
-                  <p style="font-family:Manrope; color:white">© 2023 | RAEMAR Startup Studio
-                  </p>
-                </div>
-              </div>
-              <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div class="footer__nav-2">
-                  <ul class="footer-menu-2 menu-anim">
-                   <a href="index.html"><img src="assets/reamarlogo2.png"  width="60" height="60"></a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
-        </footer>
-        <!-- Footer area end -->
-      </main>
 
+
+
+
+        </div>
     </div>
-  </div>
+
+</main>
+
+<!-- ========== Cursor ========== -->
+<div id="dsn_cursor" class="ball"></div>
+<div id="dsn_cursor_inner" class="ball"></div>
+<!-- ========== End Cursor ========== -->
 
 
 
-  <!-- All JS files -->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/swiper-bundle.min.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/gsap.min.js"></script>
-  <script src="assets/js/ScrollTrigger.min.js"></script>
-  <script src="assets/js/ScrollToPlugin.min.js"></script>
-  <script src="assets/js/ScrollSmoother.min.js"></script>
-  <script src="assets/js/SplitText.min.js"></script>
-  <script src="assets/js/chroma.min.js"></script>
-  <script src="assets/js/mixitup.min.js"></script>
-  <script src="assets/js/vanilla-tilt.js"></script>
-  <script src="assets/js/jquery.meanmenu.min.js"></script>
-  <script src="assets/js/main.js"></script>
 
+<!-- ========== Line BG ========== -->
+<div id="line_head"><span class="container"></span></div>
+<!-- ========== End Line BG ========== -->
+
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/plugins.min.js"></script>
+<script src="assets/js/plugins/dsn-grid.min.js"></script>
+<script src="assets/js/custom.js"></script>
 
 </body>
 
