@@ -93,11 +93,11 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
   }
 }
 :root {
-  --body-font: "Manrope";
-  --heading-font: "Excon", sans-serif;
+  --body-font: "Inter Tight";
+  --heading-font: "Inter Tight", sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
-  --font-size-base: 15px;
+  --font-size-base: 20px;
   --font-size-h1: 40px;
   --font-size-h2: 35px;
   --font-size-h3: 30px;
@@ -108,7 +108,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
   --line-height-base: 1.3;
   --line-height-content: 1.6;
   --font-weight-heading: 400;
-  --font-weight-body: 500;
+  --font-weight-body: 400;
   --smooth-width: 4px;
   --bg-overlay: #000;
   --overlay-blend-mode: unset;
@@ -4549,8 +4549,8 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 }
 
 .dsn-accordion .number {
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
